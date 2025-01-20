@@ -39,19 +39,19 @@ TextureImporter:
     mipBias: 0
     wrapU: 1
     wrapV: 1
-    wrapW: 0
+    wrapW: 1
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
   spriteMode: 2
-  spriteExtrude: 1
-  spriteMeshType: 1
+  spriteExtrude: 0
+  spriteMeshType: 0
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
-  spriteGenerateFallbackPhysicsShape: 1
-  alphaUsage: 1
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 0
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
   textureType: 8
@@ -71,7 +71,7 @@ TextureImporter:
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
-    textureFormat: -1
+    textureFormat: 4
     textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
@@ -105,15 +105,15 @@ TextureImporter:
         width: 32
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: caa452e97a0fd3e4e8af94eb8d146d1e
-      internalID: 1599521093
+      spriteID: 605250cf954dc98478a0b5411f0a446c
+      internalID: 1010109389
       vertices: []
       indices: 
       edges: []
@@ -127,15 +127,15 @@ TextureImporter:
         width: 32
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 49005c5e92b3c4d4d9bb4a06a0296da6
-      internalID: -1697771570
+      spriteID: 27b79f6d7936cd34a8597f55ce4fc069
+      internalID: -1031336325
       vertices: []
       indices: 
       edges: []
@@ -149,15 +149,15 @@ TextureImporter:
         width: 32
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 899d23150ca5a344893e7f01bd5ce0fd
-      internalID: 1072282715
+      spriteID: 07a821e9ff3348d499c77a611cfbc899
+      internalID: 335136147
       vertices: []
       indices: 
       edges: []
@@ -171,15 +171,15 @@ TextureImporter:
         width: 32
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3bde5caf5da5ed344bc0a4e83661d29e
-      internalID: -1331242635
+      spriteID: 596be08a673cca6408c0c0e78edc7739
+      internalID: 1570301335
       vertices: []
       indices: 
       edges: []
@@ -188,20 +188,20 @@ TextureImporter:
       name: Revolver_4
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
+        x: 128
+        y: 64
         width: 32
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fb595ae67113760498f8d853a52d7d0f
-      internalID: 49001059
+      spriteID: f77b489161bc44547a532bf4c3c05470
+      internalID: -1538374158
       vertices: []
       indices: 
       edges: []
@@ -210,20 +210,20 @@ TextureImporter:
       name: Revolver_5
       rect:
         serializedVersion: 2
-        x: 32
-        y: 0
+        x: 160
+        y: 64
         width: 32
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7b06ba67660451f48a393040c7635a91
-      internalID: -1536089455
+      spriteID: 163853751ac549644b1bd85f5628a8f0
+      internalID: -938041939
       vertices: []
       indices: 
       edges: []
@@ -232,20 +232,20 @@ TextureImporter:
       name: Revolver_6
       rect:
         serializedVersion: 2
-        x: 64
-        y: 0
+        x: 192
+        y: 64
         width: 32
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a9ecf3c52c5ce0a408307a0e248ba14f
-      internalID: -2109853102
+      spriteID: 27942a166e03d924a95731cdae567f0f
+      internalID: -1429470076
       vertices: []
       indices: 
       edges: []
@@ -254,20 +254,108 @@ TextureImporter:
       name: Revolver_7
       rect:
         serializedVersion: 2
-        x: 96
-        y: 0
+        x: 224
+        y: 64
         width: 32
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d2e72dbeac35b804c8c12a700ddeb9dd
-      internalID: 880357247
+      spriteID: b6e8af509cce2a542b8c2ac71851b584
+      internalID: 1876288045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Revolver_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 32
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17bfab5e4ce01954cafb926d804ffec4
+      internalID: -172492419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Revolver_9
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 32
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cc93a12d05134f43bcfc1a9822ee357
+      internalID: 891501242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Revolver_10
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 32
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 133dcf6245835b44eb4c5e6c64ab48bf
+      internalID: -1677578391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Revolver_11
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 32
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7204d7f9572beb6429bd94bcd9f75f47
+      internalID: -1791412151
       vertices: []
       indices: 
       edges: []
@@ -276,7 +364,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: c63dd0f815c480a47a47b4505038c6a3
+    spriteID: 68561084f421f7d48b599ab7d1420896
     internalID: 0
     vertices: []
     indices: 
@@ -284,14 +372,18 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Revolver_0: 1599521093
-      Revolver_1: -1697771570
-      Revolver_2: 1072282715
-      Revolver_3: -1331242635
-      Revolver_4: 49001059
-      Revolver_5: -1536089455
-      Revolver_6: -2109853102
-      Revolver_7: 880357247
+      Revolver_0: 1010109389
+      Revolver_1: -1031336325
+      Revolver_10: -1677578391
+      Revolver_11: -1791412151
+      Revolver_2: 335136147
+      Revolver_3: 1570301335
+      Revolver_4: -1538374158
+      Revolver_5: -938041939
+      Revolver_6: -1429470076
+      Revolver_7: 1876288045
+      Revolver_8: -172492419
+      Revolver_9: 891501242
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

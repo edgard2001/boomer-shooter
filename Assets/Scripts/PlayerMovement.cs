@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
@@ -10,7 +11,8 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private float speed = 5f;
     
     [SerializeField] private Transform cameraTransform;
-    private float _cameraPitch = 0f;
+    private float _cameraPitch;
+    private Vector3 _cameraOffset;
     
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -23,6 +25,8 @@ public class PlayerMovement : MonoBehaviour
         Cursor.lockState = CursorLockMode.Locked;
         
         cameraTransform = Camera.main.transform;
+
+        _cameraOffset = cameraTransform.localPosition;
     }
 
     // Update is called once per frame
@@ -57,7 +61,15 @@ public class PlayerMovement : MonoBehaviour
         _cameraPitch -= Input.GetAxisRaw("Mouse Y");
         _cameraPitch = Mathf.Clamp(_cameraPitch, -90f, 90f);
         cameraTransform.localRotation = Quaternion.Euler(_cameraPitch, cameraRotation.y, cameraRotation.z);
-        
+
+        if (velocity.sqrMagnitude > 0)
+        {
+            cameraTransform.localPosition = _cameraOffset + Vector3.up * (Mathf.Sin(Time.time * 10) * 0.2f);
+        }
+        else
+        {
+            cameraTransform.localPosition = Vector3.Lerp(cameraTransform.localPosition, _cameraOffset, Time.time * 10);
+        }
         
         transform.rotation *= Quaternion.Euler(0, Input.GetAxisRaw("Mouse X"), 0);
     }
